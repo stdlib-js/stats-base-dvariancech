@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-06)
+## Unreleased (2025-01-08)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`7e63aad`](https://github.com/stdlib-js/stdlib/commit/7e63aad8c0b42330b0933973bddea8d1c5e84862) - **fix:** wrap function calls in `API_SUFFIX` in native addons [(#4646)](https://github.com/stdlib-js/stdlib/pull/4646) _(by Aayush Khanna)_
 -   [`e919ac9`](https://github.com/stdlib-js/stdlib/commit/e919ac977a84e594a03d68e4c3748cd68bc9bf4e) - **style:** fix indentation in manifest.json files [(#4599)](https://github.com/stdlib-js/stdlib/pull/4599) _(by Aayush Khanna)_
 -   [`44cf480`](https://github.com/stdlib-js/stdlib/commit/44cf480b69005e5c5e333fee9b7dd6bbc4059f24) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvariancech` [(#4524)](https://github.com/stdlib-js/stdlib/pull/4524) _(by Aayush Khanna)_
 -   [`02deb59`](https://github.com/stdlib-js/stdlib/commit/02deb592d5c4257ea1b4bd56dabe5973610d5a98) - **refactor:** update `stats/base/dvariancech` native addon from C++ to C [(#4278)](https://github.com/stdlib-js/stdlib/pull/4278) _(by Vivek Maurya)_
